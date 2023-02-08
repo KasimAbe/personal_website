@@ -4,6 +4,9 @@ body{
 h1 {
     color: #130a94;
 }
+.kasim-heading{
+    font-family: 'Montesrrat', sans-serif;
+}
 header ul {
     text-align: center;
     background-color: pink;
