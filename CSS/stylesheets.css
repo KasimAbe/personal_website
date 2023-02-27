@@ -6,6 +6,7 @@ h1 {
 }
 .kasim-heading{
     font-family: 'Montesrrat', sans-serif;
+    align-items: center;
 }
 header ul {
     text-align: center;
@@ -18,4 +19,30 @@ header li {
 }
 header a {
     padding: 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 1fr 200px;
+    gap: 30px;
+}
+.title {
+    grid-column: span 2;
+}
+.img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+.p1{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.p2{
+    grid-row: 3/4;
+}
+.header-grid{
+    display: flexbox;
+    flex-direction: column;
+    background-color: pink;
 }
