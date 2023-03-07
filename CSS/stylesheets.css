@@ -12,13 +12,14 @@ h1 {
     font-family: 'Montesrrat', sans-serif;
 }
 header ul {
+    display: flex;
     text-align: center;
+    list-style-type: none;
+    flex-direction: column;
     background-color: pink;
     padding: 0;
     margin: 0;
-}
-header li {
-    display: inline;
+    gap: 5px;
 }
 header a {
     padding: 5px;
@@ -57,4 +58,10 @@ footer{
 }
 footer > p {
     background-color: pink;
+}
+@media screen and (min-width:600px) {
+    .courses-list {
+        flex-direction: row;
+        gap: 0;
+    }
 }
